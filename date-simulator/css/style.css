@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.bg {
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/28/11/57/tic-tac-toe-1777859_960_720.jpg");
+    position:absolute;
+    width: 100%; 
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#pageContent {
+    position: absolute; 
+    width: 100%; 
+    top: 100%; 
+    height: 100px;
+}
+
+input, select {
+    border: 1px solid rgba(15, 15, 15, 0.8);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 0.8em !important;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+select {
+    width: 5em;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.btn {
+    position: relative;
+    font-size: 0.6em;
+    font-weight: 600;
+    background: rgb(51, 51, 51);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.2s ease;
+}
+
+.btn:hover, #healBtn:hover {
+    color: rgb(51, 51, 51);
+    background: white;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+h3, h6 {
+    font-weight: 600;
+}
+
+h3, h4, h5 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 2px 2px 2px rgba(14, 14, 14, 0.5);
+}
+
+.girl {
+    font-size: 0.8em;
+}
+
+.girlName {
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+
+.girlAge {
+    margin-top: -1em;
+}
+
+.letsDate {
+    margin-top: 7em;
+}
+
+.actions {
+    margin-top: 2em;
+}
+
+.card {
+    padding: 1em;
+    border: 1px solid rgba(26, 26, 26, 0.5);
+    box-shadow:1px 0px 3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 600;
+}
+
+.cardDark {
+    background-color: rgba(204, 39, 39, 0.7);
+}
+
+.actionCard {
+    background-color: rgba(37, 175, 240, 0.7);
+}
+
+.cardDark:hover {
+    background-color: rgba(204, 39, 39, 0.9);
+}
+
+.actionCard:hover {
+    background-color: rgba(37, 175, 240, 0.9);
+}
+
+.cardAnim {
+    transform: scale(1);
+    transition: 0.1s ease; 
+}
+
+.cardAnim:hover {
+    transform: scale(1.05);
+}
+
+.progress {
+    border: 1px solid rgba(51, 51, 51, 0.8);
+    border-radius: 30px; 
+}
+
+.progress-bar {
+    color: rgba(26, 26, 26, 0.9);
+    font-weight: 600;
+    font-size: 0.7em;
+}
